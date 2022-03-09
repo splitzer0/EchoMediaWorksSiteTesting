@@ -2,7 +2,7 @@ var DeskMenu = document.getElementById("NavMenu-Desktop");
 DeskMenu.style.width = "0px";
 
 var MobMenu = document.getElementById("NavMenu-Mobile");
-MobMenu.style.width = "0px";
+MobMenu.style.height = "60px";
 
 
 var body = document.body;
@@ -40,10 +40,10 @@ function toggleMenuDesk(){
 function toggleMenuMob(){
   console.log(MobMenu.style);
 
-  if(MobMenu.style.width == "0px"){
-    MobMenu.style.width = "300px";
-  } else if(MobMenu.style.width == "300px"){
-    MobMenu.style.width = "0px";
+  if(MobMenu.style.height == "60px"){
+    MobMenu.style.height = "500px";
+  } else if(MobMenu.style.height == "500px"){
+    MobMenu.style.height = "60px";
   }
 }
 
